@@ -1,3 +1,4 @@
+Patient_Management_System
 
 
 ## Project Overview
@@ -166,10 +167,6 @@ pip install -r requirements.txt
 ```
 ```
 
-
-
-
-
 #### Running the Patient Management System API
 
 ```bash
@@ -229,6 +226,6 @@ Potential improvements for this project:
 
 ## owner
 
-Ujjval Sharma
+- Ujjval Sharma
 
 
