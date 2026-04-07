@@ -5,7 +5,7 @@ from typing import Literal, Annotated
 import pickle
 import pandas as pd
 
- import the ml model
+#import the ml model
 with open('model.pkl', 'rb') as f:
     model = pickle.load(f)
 
@@ -20,6 +20,7 @@ tier_2_cities = [
     "Bhavnagar", "Gwalior", "Dhanbad", "Bareilly", "Aligarh", "Gaya", "Kozhikode", "Warangal",
     "Kolhapur", "Bilaspur", "Jalandhar", "Noida", "Guntur", "Asansol", "Siliguri"
 ]
+
 
 # pydantic model to validate incoming data
 class UserInput(BaseModel):
