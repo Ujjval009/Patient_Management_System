@@ -1,4 +1,4 @@
-Patient_Management_System
+## Patient_Management_System
 
 
 ## Project Overview
@@ -46,6 +46,7 @@ fastapi-project/
 3. Assesses lifestyle risk (high/medium/low)
 4. Classifies age group and city tier
 5. Uses a pre-trained ML model to predict premium category
+
 
 **Key Components**:
 - `UserInput` - Pydantic model for input validation
