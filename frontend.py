@@ -38,6 +38,7 @@ if st.button("Predict Premium Category"):
         else:
             st.error(f"API Error: {response.status_code}")
             st.write(result)
-
+ 
+ 
     except requests.exceptions.ConnectionError:
         st.error("❌ Could not connect to the FastAPI server. Make sure it's running.")
